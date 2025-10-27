@@ -9,7 +9,7 @@ function randomRGB() {
 }
 function drawGrid(num) {
     container.textContent = "";
-    const squareSize = 500 / num;
+    const squareSize = 600 / num;
     for (i = 1; i <= num * num; i++) {
         const square = document.createElement('square');
         square.classList.add('square');
